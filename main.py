@@ -7,7 +7,7 @@ def index():
 
 @app.route('/unifran')
 def unifran():
-  return render_templates('unifran.html')
+  return render_template('unifran.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
